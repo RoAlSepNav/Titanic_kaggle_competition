@@ -1,3 +1,5 @@
+<img src="https://historia.nationalgeographic.com.es/medio/2023/06/20/the-steamship-titanic-rmg-bhc3667_00000000_9b5bd117_230620084252_1200x630.jpg">
+
 # <span style="color:cyan"> Titanic - Machine Learning from Disaster :ship:
 ### <span style="color:lightblue"> Descripción del Proyecto :clipboard:
 Este proyecto utiliza el conjunto de datos disponible en Kaggle (https://www.kaggle.com/competitions/titanic) para realizar un análisis de datos utilizando Python. El objetivo principal es usar Machine Learning para crear un modelo que prediga qué pasajeros sobrevivieron al hundimiento del Titanic.
