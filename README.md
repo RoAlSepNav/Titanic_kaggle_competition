@@ -28,5 +28,5 @@ El Jupyter notebook proporciona un análisis completo de los datos, que incluye:
 - Exploración de datos: Resumen estadístico, visualización de datos, identificación de valores nulos, etc.
 - Preprocesamiento de datos: Limpieza de datos, manejo de valores faltantes, codificación de variables categóricas, etc.
 - Análisis de características: Visualización de relaciones entre características y supervivencia.
-- Modelado y predicción: Entrenamiento de modelos de aprendizaje automático para predecir la supervivenvia de los pasajeros.
+- Modelado y predicción: Entrenamiento de modelos de aprendizaje automático para predecir la supervivencia de los pasajeros.
 - Evaluación del modelo: Evaluación dela accuracy (exactitud) y desempeño del modelo.
