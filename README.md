@@ -21,12 +21,12 @@ La métrica que se busca mejorar es el accuracy (exactitud). Esta métrica se ut
 ### <span style="color:orange"> Cómo usar este proyecto :question:
 1. Descarga el conjunto de datos desde Kaggle: https://www.kaggle.com/competitions/titanic/data
 2. Coloca los archivos CSV descargados (train.csv, test.csv) en la misma carpeta que este proyecto.
-3. Abre el Jupyter notebook house_prices.ipynb y ejecuta las celdas de código paso a paso para explorar y analizar los datos.
+3. Abre el Jupyter notebook Titanic.ipynb y ejecuta las celdas de código paso a paso para explorar y analizar los datos.
 
 ### <span style="color:orange"> Contenido del Jupyter notebook :page_facing_up:
 El Jupyter notebook proporciona un análisis completo de los datos, que incluye:
 - Exploración de datos: Resumen estadístico, visualización de datos, identificación de valores nulos, etc.
 - Preprocesamiento de datos: Limpieza de datos, manejo de valores faltantes, codificación de variables categóricas, etc.
 - Análisis de características: Visualización de relaciones entre características y supervivencia.
-- Modelado y predicción: Entrenamiento de modelos de aprendizaje automático para predecir el precio de las casas.
-- Evaluación del modelo: Evaluación de la exactitud y rendimiento del modelo.
+- Modelado y predicción: Entrenamiento de modelos de aprendizaje automático para predecir la supervivenvia de los pasajeros.
+- Evaluación del modelo: Evaluación dela accuracy (exactitud) y desempeño del modelo.
