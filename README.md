@@ -49,25 +49,23 @@ El Jupyter notebook proporciona un análisis completo de los datos, que incluye:
 ### Modelos Utilizados :computer:
 - Logistic Regression
 - K-Nearest Neighbors Classifier
+- Decision Tree Classifier
 - Random Forest Classifier
 - Support Vector Classifier
-- Gradient Boosting Classifier
 - Bernoulli Naive Bayes
-- Linear Discriminant Analysis
-- AdaBoost Classifier
+- Gradient Boosting Classifier
 - Voting Classifier
 
 ### Resultados :bar_chart:
-Se evaluaron todos los modelos utilizando la métrica micro-averaged F1-Score, y los resultados son los siguientes:
+Se evaluaron todos los modelos utilizando la métrica accuracy, y los resultados son los siguientes:
 
-- Logistic Regression: F1-Score: 0.7
-- K-Nearest Neighbors Classifier: F1-Score: 0.68
-- Random Forest Classifier: F1-Score: 0.73
-- Support Vector Classifier: F1-Score: 0.71
-- Gradient Boosting Classifier: F1-Score: 0.74
-- Bernoulli NB: F1-Score: 0.68
-- Linear Discriminant Analysis: F1-Score: 0.7
-- AdaBoost Classifier: F1-Score: 0.7
-- Voting Classifier: F1-Score: 0.75
+- Logistic Regression: Accuracy: 0.82
+- K-Nearest Neighbors Classifier: Accuracy: 0.8
+- Decision Tree Classifier: Accuracy: 0.8
+- Random Forest Classifier: Accuracy: 0.79
+- Support Vector Classifier: Accuracy: 0.83
+- Bernoulli NB: Accuracy: 0.8
+- Gradient Boosting Classifier: Accuracy: 0.82
+- Voting Classifier: Accuracy: 0.84
 
-Para el Voting Classifier se hizo una combinación de los dos mejores modelos, logrando reducir el overfitting y así obtener un mejor desempeño del modelo sobre nuevos datos.
+Para el Voting Classifier se mejoró en 1% el puntaje máximo de accuracy obtenido previamente logrando un valor de 0.84. También mejorar las métricas de f1_score. Se observa que este modelo formado a partir de otros no hace overfitting a los datos ya que las métricas entre train y test son similares.
