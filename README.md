@@ -29,14 +29,14 @@ La métrica que se busca mejorar es el accuracy (exactitud). Esta métrica se ut
 ### Estructura del Proyecto :open_file_folder:
 - train.csv: Archivo CSV que contiene los datos de entrenamiento.
 - test.csv: Archivo CSV que contiene los datos de validación.
-- Titanic.ipynb: Un Jupyter notebook que contiene el código Python para el análisis de datos.
+- titanic.ipynb: Un Jupyter notebook que contiene el código Python para el análisis de datos.
 - funciones.py: Archivo Python que contiene las funciones utilizadas para este proyecto.
 - submission.csv: Archivo CSV que contiene las predicciones para el archivo test.csv de acuerdo a las instrucciones proporcionadas por Kaggle.
 
 ### Cómo usar este proyecto :question:
 1. Descarga el conjunto de datos desde Kaggle: https://www.kaggle.com/competitions/titanic/data
 2. Coloca los archivos CSV descargados (train.csv, test.csv) en la misma carpeta que este proyecto.
-3. Abre el Jupyter notebook Titanic.ipynb y ejecuta las celdas de código paso a paso para explorar y analizar los datos.
+3. Abre el Jupyter notebook titanic.ipynb y ejecuta las celdas de código paso a paso para explorar y analizar los datos.
 
 ### Contenido del Jupyter notebook :page_facing_up:
 El Jupyter notebook proporciona un análisis completo de los datos, que incluye:
@@ -68,4 +68,5 @@ Se evaluaron todos los modelos utilizando la métrica accuracy, y los resultados
 - Gradient Boosting Classifier: Accuracy: 0.82
 - Voting Classifier: Accuracy: 0.84
 
-Para el Voting Classifier se mejoró en 1% el puntaje máximo de accuracy obtenido previamente logrando un valor de 0.84. También mejorar las métricas de f1_score. Se observa que este modelo formado a partir de otros no hace overfitting a los datos ya que las métricas entre train y test son similares.
+Para el Voting Classifier se mejoró en 1% el puntaje máximo de accuracy obtenido previamente logrando un valor de 0.84.
+Se observa que este modelo formado a partir de otros no hace overfitting a los datos ya que las métricas entre train y test son similares.
