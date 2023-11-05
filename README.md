@@ -34,9 +34,10 @@ La métrica que se busca mejorar es el accuracy (exactitud). Esta métrica se ut
 - submission.csv: Archivo CSV que contiene las predicciones para el archivo test.csv de acuerdo a las instrucciones proporcionadas por Kaggle.
 
 ### Cómo usar este proyecto :question:
-1. Descarga el conjunto de datos desde Kaggle: https://www.kaggle.com/competitions/titanic/data
-2. Coloca los archivos CSV descargados (train.csv, test.csv) en la misma carpeta que este proyecto.
-3. Abre el Jupyter notebook titanic.ipynb y ejecuta las celdas de código paso a paso para explorar y analizar los datos.
+1. Asegúrate de tener instalado Python 3.9.17 en tu sistema.
+2. Descarga el conjunto de datos desde Kaggle: https://www.kaggle.com/competitions/titanic/data
+3. Coloca los archivos CSV descargados (`train.csv`, `test.csv`) en la misma carpeta que este proyecto.
+4. Abre el Jupyter notebook `titanic.ipynb` y ejecuta las celdas de código paso a paso para explorar y analizar los datos.
 
 ### Contenido del Jupyter notebook :page_facing_up:
 El Jupyter notebook proporciona un análisis completo de los datos, que incluye:
