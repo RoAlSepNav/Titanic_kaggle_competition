@@ -27,11 +27,11 @@ La métrica que se busca mejorar es el accuracy (exactitud). Esta métrica se ut
 - Biblioteca de aprendizaje automático: scikit-learn.
 
 ### Estructura del Proyecto :open_file_folder:
-- train.csv: Archivo CSV que contiene los datos de entrenamiento.
-- test.csv: Archivo CSV que contiene los datos de validación.
-- titanic.ipynb: Un Jupyter notebook que contiene el código Python para el análisis de datos.
-- funciones.py: Archivo Python que contiene las funciones utilizadas para este proyecto.
-- submission.csv: Archivo CSV que contiene las predicciones para el archivo `test.csv` de acuerdo a las instrucciones proporcionadas por Kaggle.
+- **train.csv:** Archivo CSV que contiene los datos de entrenamiento.
+- **test.csv:** Archivo CSV que contiene los datos de validación.
+- **titanic.ipynb:** Un Jupyter notebook que contiene el código Python para el análisis de datos.
+- **funciones.py:** Archivo Python que contiene las funciones utilizadas para este proyecto.
+- **submission.csv:** Archivo CSV que contiene las predicciones para el archivo `test.csv` de acuerdo a las instrucciones proporcionadas por Kaggle.
 
 ### Cómo usar este proyecto :question:
 1. Asegúrate de tener instalado Python 3.9.17 en tu sistema.
